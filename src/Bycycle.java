@@ -13,7 +13,7 @@ public class Bycycle {
         speed += increment;
     }
     public String toString(){
-        return ("No of gears are "+ gear + "\n" +"Speed of the bicycle is "+ speed);
+        return ("No of gears are "+ gear + "\n" +"Speed of the bicycle is: "+ speed);
     }
 }
 class mountainBike extends Bycycle{
@@ -28,6 +28,6 @@ class mountainBike extends Bycycle{
 
     @Override
     public String toString() {
-        return (super.toString() + "\nseat height is "+ seatHeight);
+        return (super.toString() + "\nseat height is: "+ seatHeight);
     }
 }
