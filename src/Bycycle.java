@@ -13,7 +13,7 @@ public class Bycycle {
         speed += increment;
     }
     public String toString(){
-        return ("No of gears are "+ gear + "\n" +"Speed of the bicycle is: "+ speed);
+        return ("No of gears are "+ gear + "\n" +"Speed of the bicycle is "+ speed);
     }
 }
 class mountainBike extends Bycycle{
